@@ -4,6 +4,9 @@
 // console.log(`Value of Pi is: ${importExport.piValue}`);
 
 //002-Event-Emitter: Example of how to create and trigger an event using EventEmitter
-const eventEmitter = require("./002-Event-Emitters/eventEmitter");
+// const eventEmitter = require("./002-Event-Emitters/eventEmitter");
 //This is how we trigger an event called "sum" which is defined above
-eventEmitter.emit("sum", 1, 2);
+// eventEmitter.emit("sum", 1, 2);
+
+//003-ReadLine-Module: Example of how to take input from CLI, apply logic and provide output
+const rl = require("./003-ReadLine-Module/readLine");
