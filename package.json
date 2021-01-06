@@ -1,0 +1,25 @@
+{
+    "name": "core-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avinashredyy/core-nodejs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/avinashredyy/core-nodejs/issues"
+    },
+    "homepage": "https://github.com/avinashredyy/core-nodejs#readme"
+}
