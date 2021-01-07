@@ -9,4 +9,7 @@
 // eventEmitter.emit("sum", 1, 2);
 
 //003-ReadLine-Module: Example of how to take input from CLI, apply logic and provide output
-const rl = require("./003-ReadLine-Module/readLine");
+// const rl = require("./003-ReadLine-Module/readLine");
+
+//004-FileSystem-Module: Example of how to create, read, rename, delete and append to a file.
+const fs = require("./004-FileSystem-Module/fileSystem.js");
