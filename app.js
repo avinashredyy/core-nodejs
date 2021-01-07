@@ -16,4 +16,8 @@
 
 //005-Streams-Module: Example of how to read a file in streams and write to another file. This helps
 //when there is large amounts of data
-const readStream = require("./005-Streams-Module/streamsModule");
+// const readStream = require("./005-Streams-Module/streamsModule");
+
+//006-HTTP-Module: Examples of how to create a server, serving static files and listening on a port
+// const runServer = require("./006-HTTP-Module/httpModule");
+const serveStaticFiles = require("./006-HTTP-Module/servingStaticFiles");
