@@ -12,4 +12,8 @@
 // const rl = require("./003-ReadLine-Module/readLine");
 
 //004-FileSystem-Module: Example of how to create, read, rename, delete and append to a file.
-const fs = require("./004-FileSystem-Module/fileSystem.js");
+// const fs = require("./004-FileSystem-Module/fileSystem.js");
+
+//005-Streams-Module: Example of how to read a file in streams and write to another file. This helps
+//when there is large amounts of data
+const readStream = require("./005-Streams-Module/streamsModule");
